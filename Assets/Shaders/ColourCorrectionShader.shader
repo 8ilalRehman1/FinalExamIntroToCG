@@ -21,7 +21,8 @@ Shader "ColourCorrectionShader"
             color *= _ColorTint;
         }
         sampler2D _MainTex;
-        void surf (Input IN, inout SurfaceOutput o){
+        void surf (Input IN, inout SurfaceOutput o)
+        {
             o.Albedo = tex2D (_MainTex, IN.uv_MainTex).rgb;
         }
         ENDCG
