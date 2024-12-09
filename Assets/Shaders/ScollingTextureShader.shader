@@ -2,8 +2,7 @@ Shader "Scrolling"
 {
     Properties
     {
-        _MainTex ("Albedo (RGB)", 2D) = "white" {}
-        _FoamTex ("Foam", 2D) = "white" {}
+        _MainTex ("Background", 2D) = "white" {}
         _ScrollX ("Scroll X", Range(-5,5)) = 1
         _ScrollY ("Scroll Y", Range(-5,5)) = 1
     }
