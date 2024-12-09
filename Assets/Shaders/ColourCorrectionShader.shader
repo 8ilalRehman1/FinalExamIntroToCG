@@ -3,7 +3,8 @@ Shader "ColourCorrectionShader"
     Properties
     {
        _MainTex ("Texture", 2D) = "white" {}
-        _ColorTint ("Tint", Color) = (1.0,0.6,0.6,1.0)
+       _ColorTint ("Tint", Color) = (1.0,0.6,0.6,1.0)
+       //this tint will be applied to the objects pixels
     }
     SubShader
     {

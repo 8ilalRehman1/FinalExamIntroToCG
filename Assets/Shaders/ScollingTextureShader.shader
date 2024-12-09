@@ -5,6 +5,7 @@ Shader "Scrolling"
         _MainTex ("Background", 2D) = "white" {}
         _ScrollX ("Scroll X", Range(-5,5)) = 1
         _ScrollY ("Scroll Y", Range(-5,5)) = 1
+        //Main texture that can be effected by scrolling
     }
     SubShader
     {

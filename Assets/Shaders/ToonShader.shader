@@ -3,8 +3,9 @@ Shader "ToonShading"
     Properties
     {
         _Color ("Color", Color) = (1,1,1,1)
-
+        //Base colour tint
         _RampTex ("Ramp Texture", 2D) = "white" {}
+        //The bands in the ramp will influence the shading
     }
     SubShader
     {
