@@ -1,4 +1,4 @@
-Shader "Custom/ColourCorrectionShader"
+Shader "ColourCorrectionShader"
 {
     Properties
     {
