@@ -23,7 +23,6 @@ Shader "Scrolling"
         void surf (Input IN, inout SurfaceOutput o)
         {
             _ScrollX *= _Time;
-            _ScrollY *= _Time;
             float3 water = (tex2D(_MainTex, IN.uv_MainTex + float2(_ScrollX,_ScrollY))).rgb;
             o.Albedo = (water);
         }
